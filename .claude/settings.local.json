@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -I https://positivepeng.github.io/)",
+      "Bash(git reset:*)",
+      "Bash(git push:*)",
+      "Bash(cp -r /Users/phil/GithubReps/phil-blog/* /Users/phil/GithubReps/positivepeng.github.io/)",
+      "Bash(cp -r /Users/phil/GithubReps/phil-blog/.gitignore /Users/phil/GithubReps/positivepeng.github.io/)",
+      "Bash(cp:*)",
+      "Bash(hugo)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
