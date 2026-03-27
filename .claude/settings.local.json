@@ -13,7 +13,9 @@
       "Bash(git:*)",
       "Bash(rm -rf /Users/phil/GithubReps/positivepeng.github.io/*)",
       "Bash(cp -R public/* /Users/phil/GithubReps/positivepeng.github.io/)",
-      "Read(//Users/phil/GithubReps/**)"
+      "Read(//Users/phil/GithubReps/**)",
+      "Bash(hugo -D)",
+      "Bash(cp -R /Users/phil/GithubReps/phil-blog/public/* /Users/phil/GithubReps/positivepeng.github.io/)"
     ]
   }
 }
