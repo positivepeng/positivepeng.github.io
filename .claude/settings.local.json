@@ -23,7 +23,8 @@
       "Bash(hugo list:*)",
       "Bash(hugo config:*)",
       "Bash(hugo -F)",
-      "Bash(/Users/phil/GithubReps/phil-blog/deploy.sh \"Fix daily-notes date and deploy\")"
+      "Bash(/Users/phil/GithubReps/phil-blog/deploy.sh \"Fix daily-notes date and deploy\")",
+      "Bash(/Users/phil/GithubReps/phil-blog/deploy.sh \"Reduce spacing on homepage\")"
     ]
   }
 }
