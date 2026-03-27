@@ -25,7 +25,11 @@
       "Bash(hugo -F)",
       "Bash(/Users/phil/GithubReps/phil-blog/deploy.sh \"Fix daily-notes date and deploy\")",
       "Bash(/Users/phil/GithubReps/phil-blog/deploy.sh \"Reduce spacing on homepage\")",
-      "Bash(./deploy.sh \"Fix large spacing on homepage\")"
+      "Bash(./deploy.sh \"Fix large spacing on homepage\")",
+      "WebFetch(domain:positivepeng.github.io)",
+      "WebSearch",
+      "Bash(claude mcp:*)",
+      "Bash(./deploy.sh \"Update posts with draft status\")"
     ]
   }
 }
