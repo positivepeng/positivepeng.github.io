@@ -31,7 +31,8 @@
       "Bash(claude mcp:*)",
       "Bash(./deploy.sh \"Update posts with draft status\")",
       "Bash(./deploy.sh \"Add visitor counter with Busuanzi\")",
-      "Bash(./deploy.sh \"Improve footer visitor counter display\")"
+      "Bash(./deploy.sh \"Improve footer visitor counter display\")",
+      "Bash(./deploy.sh \"Fix visitor counter flash issue\")"
     ]
   }
 }
