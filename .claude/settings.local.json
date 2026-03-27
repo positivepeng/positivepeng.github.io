@@ -29,7 +29,8 @@
       "WebFetch(domain:positivepeng.github.io)",
       "WebSearch",
       "Bash(claude mcp:*)",
-      "Bash(./deploy.sh \"Update posts with draft status\")"
+      "Bash(./deploy.sh \"Update posts with draft status\")",
+      "Bash(./deploy.sh \"Add visitor counter with Busuanzi\")"
     ]
   }
 }
