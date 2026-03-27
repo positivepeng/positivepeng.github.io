@@ -9,7 +9,10 @@
       "Bash(cp:*)",
       "Bash(hugo)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git:*)",
+      "Bash(rm -rf /Users/phil/GithubReps/positivepeng.github.io/*)",
+      "Bash(cp -R public/* /Users/phil/GithubReps/positivepeng.github.io/)"
     ]
   }
 }
