@@ -1,0 +1,20 @@
+.first-entry {
+    margin: var(--gap) 0 calc(var(--gap) * 0.5) 0;
+    min-height: auto;
+}
+
+.first-entry.home-info {
+    min-height: auto;
+}
+
+.entry-header {
+    margin-bottom: calc(var(--gap) * 0.3);
+}
+
+.entry-content {
+    margin-top: calc(var(--gap) * 0.3);
+}
+
+main.list > article {
+    margin-bottom: calc(var(--gap) * 0.5);
+}
