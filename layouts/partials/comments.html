@@ -1,0 +1,25 @@
+{{- $giscus := site.Params.giscus -}}
+{{- if and $giscus $giscus.repo $giscus.repoId $giscus.category $giscus.categoryId -}}
+<div class="comments">
+ <script src="https://giscus.app/client.js"
+ data-repo="{{ $giscus.repo }}"
+ data-repo-id="{{ $giscus.repoId }}"
+ data-category="{{ $giscus.category }}"
+ data-category-id="{{ $giscus.categoryId }}"
+ data-mapping="{{ $giscus.mapping | default "pathname" }}"
+ data-strict="{{ $giscus.strict | default "0" }}"
+ data-reactions-enabled="{{ $giscus.reactionsEnabled | default "1" }}"
+ data-emit-metadata="{{ $giscus.emitMetadata | default "0" }}"
+ data-input-position="{{ $giscus.inputPosition | default "top" }}"
+ data-theme="{{ $giscus.theme | default "preferred_color_scheme" }}"
+ data-lang="{{ $giscus.lang | default "zh-CN" }}"
+ data-loading="lazy"
+ crossorigin="anonymous"
+ async>
+ </script>
+</div>
+{{- else -}}
+<div class="comments">
+ <p>Giscus 未配置完整：请在 hugo.toml 的 [params.giscus] 中填写 repoId 和 categoryId。</p>
+</div>
+{{- end -}}

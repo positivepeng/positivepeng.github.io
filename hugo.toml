@@ -39,6 +39,9 @@ theme = 'PaperMod'
   home = ["HTML", "RSS", "JSON"]
 
 # 首页信息
+[params]
+ comments = true
+
 [params.homeInfoParams]
   Title = "Phil的碎碎念"
   Content = """
@@ -54,3 +57,18 @@ theme = 'PaperMod'
 [[params.socialIcons]]
   name = "zhihu"
   url = "https://www.zhihu.com/people/jie-sheng-hao"
+
+# 评论系统（Giscus）
+
+[params.giscus]
+ repo = "positivepeng/positivepeng.github.io"
+ repoId = "R_kgDORyDUAA"
+ category = "Announcements"
+ categoryId = "DIC_kwDORyDUAM4C5e2_"
+ mapping = "pathname"
+ strict = "0"
+ reactionsEnabled = "1"
+ emitMetadata = "0"
+ inputPosition = "bottom"
+ theme = "preferred_color_scheme"
+ lang = "zh-CN"
