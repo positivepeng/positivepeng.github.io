@@ -19,6 +19,16 @@
 &lt;p&gt;喜欢投资，相信国运，定投纳斯达克；慢慢变富，做时间的朋友&lt;/p&gt;</description>
     </item>
     <item>
+      <title>vibe coding初体验</title>
+      <link>https://positivepeng.github.io/post/0329%E9%9A%8F%E7%AC%94-vibe-coding%E5%88%9D%E4%BD%93%E9%AA%8C/</link>
+      <pubDate>Fri, 27 Mar 2026 22:02:00 +0800</pubDate>
+      <guid>https://positivepeng.github.io/post/0329%E9%9A%8F%E7%AC%94-vibe-coding%E5%88%9D%E4%BD%93%E9%AA%8C/</guid>
+      <description>&lt;p&gt;最近集中体验了下vibe coding，总的结论来说：对算法工程师来说，做基础活儿很强，但短板也非常明显。
+Claude和GLM都体验了下，编程能力上没有让我体感上有很大的差异，基础的活儿都能完成，难的活都干不了，当然也可能是我打开方式不对哈哈哈哈哈。
+今天体验了下大神karpathy的autoresearch项目，这个项目简单概括就是写好训练脚本定好评估指标，让大模型调参，包括调学习率，模型参数等，大模型在这方面确实还是能够做得不错，但是有一个很明显的问题是调研的自由度，当任务固定并且需要调的参数没有那么多的情况下大模型确实可以通过一些认知探索出一些不错的参数组合，一定程度上能够减轻调参负担，但是更进一步，如果我想做一些模型结构层面上的改进和探索，那它实现还是非常有局限，比如我投喂一个论文给它让他实现xx网络，它基本都写不对，甚至写出来的结果和论文差距还是比较大的，所以总结起来，目前大模型能干的还是一些比较基础的活儿，对于一些更有深度的探索项目，是比较难以简单的prompt形式获得的，因此怎么挖掘出大模型的所有能力，这是一个有待讨论的问题。
+不管怎么说，从现在的大模型使用热度上来说，我还是非常看好大模型的，这也是我重仓纳斯达克的原因之一，科技才是第一生产力！&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>关于大模型使用的思考</title>
       <link>https://positivepeng.github.io/post/0328%E9%9A%8F%E7%AC%94-%E6%80%8E%E4%B9%88%E7%94%A8%E5%A5%BD%E5%A4%A7%E6%A8%A1%E5%9E%8B/</link>
       <pubDate>Fri, 27 Mar 2026 22:02:00 +0800</pubDate>
