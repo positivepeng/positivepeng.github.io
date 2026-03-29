@@ -15,6 +15,16 @@ cleanup() {
 }
 trap cleanup EXIT
 
+echo "Committing and pushing main branch..."
+cd "$ROOT_DIR"
+git add -A
+if git diff --cached --quiet; then
+  echo "No changes to commit on main."
+else
+  git commit -m "$COMMIT_MSG"
+  git push origin main
+fi
+
 echo "Building site from main..."
 hugo --source "$ROOT_DIR" --destination "$PUBLIC_DIR" --cleanDestinationDir
 
@@ -42,10 +52,10 @@ rsync -a --delete --exclude ".git" "$PUBLIC_DIR/" "$WORKTREE_DIR/"
 cd "$WORKTREE_DIR"
 git add -A
 
-if git diff --cached --quiet; then
-  echo "No changes to publish."
-  exit 0
-fi
+# if git diff --cached --quiet; then
+#   echo "No changes to publish."
+#   exit 0
+# fi
 
 git commit -m "$COMMIT_MSG"
 git push origin gh-pages

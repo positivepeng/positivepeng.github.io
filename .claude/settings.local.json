@@ -41,7 +41,8 @@
       "Bash(pkill -f \"hugo build\")",
       "Bash(pkill -f \"hugo --source\")",
       "Bash(./deploy.sh \"Test deploy\")",
-      "Bash(./deploy.sh \"Test deploy after restoring theme\")"
+      "Bash(./deploy.sh \"Test deploy after restoring theme\")",
+      "Bash(ping github.com)"
     ]
   }
 }
