@@ -26,7 +26,22 @@
       "Bash(gh run:*)",
       "WebFetch(domain:github.com)",
       "Bash(open:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(GIT_AUTHOR_NAME=\"positivepeng\" GIT_AUTHOR_EMAIL=\"positivepeng@users.noreply.github.com\" GIT_COMMITTER_NAME=\"positivepeng\" GIT_COMMITTER_EMAIL=\"positivepeng@users.noreply.github.com\" git -C \"/Users/phil/GithubReps/positivepeng.github.io\" commit -m \"$\\(cat <<''EOF'':*)",
+      "Bash(python3:*)",
+      "Bash(chmod +x \"/Users/phil/GithubReps/positivepeng.github.io/deploy.sh\")",
+      "Bash(gh api:*)",
+      "Bash(\"/Users/phil/GithubReps/positivepeng.github.io/deploy.sh\" \"publish: latest note\")",
+      "Bash(GIT_AUTHOR_NAME=\"positivepeng\" GIT_AUTHOR_EMAIL=\"positivepeng@users.noreply.github.com\" GIT_COMMITTER_NAME=\"positivepeng\" GIT_COMMITTER_EMAIL=\"positivepeng@users.noreply.github.com\" \"/Users/phil/GithubReps/positivepeng.github.io/deploy.sh\" \"publish: latest note\")",
+      "Bash(GIT_AUTHOR_NAME=\"Phil\" GIT_AUTHOR_EMAIL=\"phil@example.com\" GIT_COMMITTER_NAME=\"Phil\" GIT_COMMITTER_EMAIL=\"phil@example.com\" git commit -m \"$\\(cat <<''EOF'':*)",
+      "Bash(./deploy.sh \"test publish\")",
+      "Bash(kill 61098)",
+      "Bash(kill bwzc09elk:*)",
+      "Bash(echo \"Timeout or error: $?\")",
+      "Bash(pkill -f \"hugo build\")",
+      "Bash(pkill -f \"hugo --source\")",
+      "Bash(./deploy.sh \"Test deploy\")",
+      "Bash(./deploy.sh \"Test deploy after restoring theme\")"
     ]
   }
 }
