@@ -42,7 +42,12 @@
       "Bash(pkill -f \"hugo --source\")",
       "Bash(./deploy.sh \"Test deploy\")",
       "Bash(./deploy.sh \"Test deploy after restoring theme\")",
-      "Bash(ping github.com)"
+      "Bash(ping github.com)",
+      "Bash(convert -size 32x32 -background white -fill black -gravity center -pointsize 24 -annotate 0 \"P\" -bordercolor white -border 1 static/favicon.png)",
+      "Bash(convert -size 16x16 -background white -fill black -gravity center -pointsize 12 -annotate 0 \"P\" -bordercolor white -border 1 static/favicon-16.png)",
+      "Bash(ls -la static/*.png)",
+      "Bash(magick -size 32x32 -background white -fill black -gravity center -pointsize 24 -annotate 0 \"P\" -bordercolor white -border 1 static/favicon.png)",
+      "Bash(magick -size 16x16 -background white -fill black -gravity center -pointsize 12 -annotate 0 \"P\" -bordercolor white -border 1 static/favicon-16.png)"
     ]
   }
 }
