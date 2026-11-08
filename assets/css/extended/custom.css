@@ -323,6 +323,104 @@ body.kami-paper-page .footer span.kami-attribution {
     white-space: nowrap;
 }
 
+/* ===== 暗色模式：Kami 纸感样式适配 ===== */
+html[data-theme="dark"] body.kami-paper-page,
+html[data-theme="dark"] body.kami-paper-page.list {
+    --theme: #1b1b18;
+    --entry: #232320;
+    --primary: #e9e7dd;
+    --secondary: #a9a79d;
+    --tertiary: #3a3a35;
+    --content: #cbc9bf;
+    --code-bg: #26261f;
+    --code-block-bg: #151513;
+    --border: #3a3a35;
+    --kami-accent: #8fb0d8;
+    background-color: var(--theme);
+    background-image:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.22) 0 1px, transparent 1px),
+        repeating-linear-gradient(105deg, rgba(120, 150, 195, 0.05) 0 1px, transparent 1px 7px);
+    background-size: 42px 42px, 42px 42px, 180px 180px;
+}
+
+html[data-theme="dark"] body.kami-paper-page .logo a,
+html[data-theme="dark"] body.kami-paper-page .entry-header h1,
+html[data-theme="dark"] body.kami-paper-page .entry-header h2,
+html[data-theme="dark"] body.kami-paper-page .page-header h1,
+html[data-theme="dark"] body.kami-paper-page .post-title,
+html[data-theme="dark"] body.kami-paper-page .post-content strong {
+    color: var(--primary);
+}
+
+html[data-theme="dark"] body.kami-paper-page #menu a,
+html[data-theme="dark"] body.kami-paper-page .social-icons a,
+html[data-theme="dark"] body.kami-paper-page .entry-content,
+html[data-theme="dark"] body.kami-paper-page .post-content blockquote {
+    color: var(--content);
+}
+
+html[data-theme="dark"] body.kami-paper-page #menu .active {
+    color: var(--kami-accent);
+    border-bottom-color: rgba(143, 176, 216, 0.36);
+}
+
+html[data-theme="dark"] body.kami-paper-page .entry-footer,
+html[data-theme="dark"] body.kami-paper-page .archive-count,
+html[data-theme="dark"] body.kami-paper-page .archive-meta,
+html[data-theme="dark"] body.kami-paper-page .breadcrumbs,
+html[data-theme="dark"] body.kami-paper-page .post-meta,
+html[data-theme="dark"] body.kami-paper-page .footer,
+html[data-theme="dark"] body.kami-paper-page .breadcrumbs a,
+html[data-theme="dark"] body.kami-paper-page .post-meta a {
+    color: var(--secondary);
+}
+
+html[data-theme="dark"] body.kami-paper-page .first-entry,
+html[data-theme="dark"] body.kami-paper-page .post-entry,
+html[data-theme="dark"] body.kami-paper-page .page-header,
+html[data-theme="dark"] body.kami-paper-page .post-single {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0) 42%),
+        var(--entry);
+    box-shadow:
+        inset 0 0 0 1px rgba(255, 255, 255, 0.04),
+        0 14px 36px rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme="dark"] body.kami-paper-page .first-entry::before,
+html[data-theme="dark"] body.kami-paper-page .post-entry::before,
+html[data-theme="dark"] body.kami-paper-page .page-header::before,
+html[data-theme="dark"] body.kami-paper-page .post-single::before {
+    border-color: rgba(143, 176, 216, 0.12);
+}
+
+html[data-theme="dark"] body.kami-paper-page .post-content strong {
+    background: linear-gradient(to top, rgba(143, 176, 216, 0.22) 36%, transparent 36%);
+}
+
+html[data-theme="dark"] body.kami-paper-page .post-content a {
+    color: var(--kami-accent);
+    box-shadow: 0 1px 0 rgba(143, 176, 216, 0.34);
+}
+
+html[data-theme="dark"] body.kami-paper-page .post-content blockquote {
+    background: rgba(143, 176, 216, 0.1);
+    border-inline-start-color: var(--kami-accent);
+}
+
+html[data-theme="dark"] body.kami-paper-page .post-tags a,
+html[data-theme="dark"] body.kami-paper-page .terms-tags a {
+    color: var(--kami-accent);
+    background: rgba(143, 176, 216, 0.14);
+    border-color: rgba(143, 176, 216, 0.2);
+}
+
+html[data-theme="dark"] body.kami-paper-page .pagination a {
+    color: var(--theme);
+    background: var(--kami-accent);
+}
+
 @media screen and (max-width: 768px) {
     body.kami-paper-page .main {
         padding: 0 12px;
